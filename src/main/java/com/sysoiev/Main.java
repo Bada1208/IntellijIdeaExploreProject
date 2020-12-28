@@ -8,5 +8,6 @@ public class Main {
         System.out.println(product.getName());
         String hello = "hello";
         product.printMessage(hello);
+        String[] strings = new String[10];
     }
 }
