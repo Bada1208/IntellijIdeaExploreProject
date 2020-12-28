@@ -6,5 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Product product = new Product("oil");
         System.out.println(product.getName());
+        String hello = "hello";
+        product.printMessage(hello);
     }
 }
